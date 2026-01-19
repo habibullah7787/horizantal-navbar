@@ -1,7 +1,5 @@
 .vscode/
 .git/
 node_modules/
-icons/
-images/
 *.log
-*.css
+
