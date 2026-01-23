@@ -12,7 +12,7 @@
     width: 100%;
     height: 70px;
     background-color: rgb(50, 7, 0,8);
-    box-shadow: rgb(50, 50, blue0,25); 0px 13px 27px -5px, rgb(0, 0, 0,22); 0px 8px 16px -8px;
+    box-shadow: rgb(50, 50, blue0,25) 0px 13px 27px -5px, rgb(0, 0, 0,22) 0px 8px 16px -8px;
 }
 
 .brand {
@@ -55,5 +55,40 @@
 
 .nav .nav-list .nav-item:hover {
     background-color: rgb(255, 255, 255,0.2);
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        height: 450px;
+        width: 100%;
+    }
+    .brand {
+        height: 60px;
+        width: 20%;
+    }
+    .nav {
+        height: 70%;
+        width: 100%;
+        float: left;
+
+    }
+    .nav .nav-list {
+        width: 100%;
+        display: block;
+        border: none;
+        border: 1px rgb(172, 40, 40) solid;
+        
+        
+    }
+    .nav .nav-list .nav-item {
+        width: 100%;
+        padding: 20px 15px;
+        text-align: left;
+    }
+    .nav .nav-list .nav-item:hover {
+        background-color: rgb(255, 255, 255,0.2);
+        opacity: 0.5;
+    }
+
 }
 
